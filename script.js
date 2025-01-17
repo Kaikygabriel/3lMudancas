@@ -23,11 +23,11 @@ function  menu(){
     if(Intam(s1)){
         s11.style.left ='0%'
         s1.style.height ='41px'
-        s1.style.border = '2px solid black'
+        
     } else if(Intam2(s1)){
         s11.style.left ='-100%'
         s1.style.height = '40px'
-        s1.style.border = '1px solid black'
+        
     } else{
         alert('[ERROR-01]Não foi possivel abrir o menu, tente novamente')
     }
